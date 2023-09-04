@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+
+.vault-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.vault-container h3 {
+    margin: 2rem;
+}
+
+.vault-container .btn-code {
+    width: 30%;
+    height: 3rem;
+    background-color: black;
+    color: azure;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 200;
+    transition: all 0.9s ease;
+}
+
+.vault-container .btn-code:hover {
+    transform: scale(1.1);
+}
